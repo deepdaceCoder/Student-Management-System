@@ -116,7 +116,7 @@
 						</tr>
 						
 						<tr>
-							<td rowspan="8"><img src="../dataimg/<?php echo $data['image'];?>"</td>
+							<td rowspan="8"><img src="../dataimg/<?php echo $data['image'];?>" style="width:200px;"></td>
 							<th>ID</th>
 							<td><?php echo $data['id'];?></td>
 						</tr>
