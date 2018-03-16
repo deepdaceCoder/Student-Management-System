@@ -96,7 +96,7 @@
 							<td><?php echo $data['email'];?></td>
 							<td><?php echo $data['password'];?></td>
 							<td><?php echo $data['phone'];?></td>
-							<td><a href="deleteform.php?sid=<?php echo $data['id']; ?>">Delete</a></td>
+							<td><a href="deleteform.php?sid=<?php echo $data['id']; ?>&roll=<?php echo $data['roll']?>">Delete</a></td>
 						</tr>
 						<?php
 					}
