@@ -34,11 +34,7 @@
 		<form method="post" enctype="multipart/form-data">
 			<table border="1" align="center" style="width:70%; margin-top:40px;">
 				<tr>
-					<td>
-						<?php 
-							echo "<img src='../dataimg/".$data['image']."'>";
-						?>
-					</td>
+					<td><img src="../dataimg/<?php echo $data['image'];?>" style="width:200px;"></td>
 					<td><input type="file" name="image"/></td>
 					<td><input type="submit" name="update" value="Update" style="font-size:25px;"/></td>
 				</tr>
