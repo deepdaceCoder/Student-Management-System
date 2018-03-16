@@ -6,6 +6,11 @@
 		echo "Connection error";
 		exit();
 	}
+	if(isset($_SESSION['uname'])) {
+		header("location:student/studentdash.php");
+	}
+	else if(isset($_SESSION['uid']))
+		header("location:admin/admindash.php");
 
 ?>
 
