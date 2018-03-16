@@ -8,8 +8,11 @@
 	else {
 		$id=$_SESSION['uid'];
 		$sid = $_GET['sid'];
+		$roll = $_GET['roll'];
 		
+		$query_newsfeed = "DELETE FROM `newsfeed` WHERE `roll`='$roll'";
 		$query = "DELETE FROM `student` WHERE `id`='$sid'";
+		$run = mysqli_query($con,$query_newsfeed);
 		$run = mysqli_query($con,$query);
 		
 		if($run==TRUE)
