@@ -32,7 +32,7 @@
 		
 		<table border="4" align="center" style="margin-top:40px; width:70%;">
 			<tr>
-				<td rowspan="8"><img src="../dataimg/<?php echo $data['image'];?>"</td>
+				<td rowspan="8"><img src="../dataimg/<?php echo $data['image'];?>" style="width:200px;"></td>
 				<th>ID</th>
 				<td><?php echo $data['id'];?></td>
 			</tr>
